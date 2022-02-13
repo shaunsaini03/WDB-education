@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: aqua;
+}
+
+.bee {
+    color: darkorange;
+    font-size: 40px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-weight: bold;
+    font-family: fantasy;
+    text-align: center;
+    text-decoration: underline blue dotted 2px;
+    text-transform: uppercase;
+}
+
+.barry {
+    width: 600px;
+    height: 400px;
+    z-index: 1;
+    box-shadow: 30px 30px 40px darkorange;
+    border-radius: 40px;
+}
+
+.regular-div {
+    background-color: indigo;
+    opacity: 100;
+}
