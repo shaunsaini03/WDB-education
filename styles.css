@@ -36,10 +36,45 @@
     border-style: solid;
     margin-bottom: 5rem;
   }
+
+
+  .topbox {
+    height: 50%;
+    width: 100%;
+    display: flex;
+
+  }
+  .leftbox {
+    width: 30%;
+  }
+  .topleftbox {
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+
+  .whitebox {
+    width: 20%;
+  }
+  
+  .topmidbox {
+    height: 20%;
+  }
+
+  .rightbox {
+
+    width: 70%;
+  }
   
   .horiz {
     display: flex;
     flex-direction: row;
+  }
+
+  .greecevert {
+    height: 22.222%;
   }
   
   .twovert {
@@ -56,6 +91,10 @@
 
   .eightvert {
     height: 12.5%;
+  }
+
+  .greecebottom {
+    height: 11.111%;
   }
 
   .eighthoriz {
